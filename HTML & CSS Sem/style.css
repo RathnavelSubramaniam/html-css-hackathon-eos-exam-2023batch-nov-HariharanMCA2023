@@ -1,0 +1,143 @@
+body{
+    background-image: url('./images/background1.jfif');
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+header {
+    background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+
+    color: #fff; 
+    padding: 0px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+     
+  }
+  
+  
+  header h1 {
+    font-size: 36px; 
+    margin: 0; 
+    top: 100px;
+  }
+  
+  header h2{
+    color:black;
+    font-size: 36px;
+    font-style: initial;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+  }
+
+
+.navbar{
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 70px;
+    left: 0;
+    background-image: linear-gradient(to left top, blue, red);
+;
+    z-index: 1000;
+    
+  
+
+}
+#nav{
+color: white;
+}
+
+
+
+
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:lightgoldenrodyellow;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.heading{
+    margin-top: 25px;
+    font-size:50px;
+  color:rebeccapurple;
+}
+
+.para{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    color: brown;
+
+}
+
+
+.sidebar:hover, .sidebar img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease; 
+}
+
+
+.sidebar, .sidebar img {
+    transition: transform 0.3s ease;
+}
+
+/* #sidebarA { */
+    
+    /* Additional styles for Slide Bar A */
+/* } */
+
+ #sidebarB img {
+    width: 500px;
+    height: 500px;
+    
+}
+
+.main-content {
+    flex: 2; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer {
+    background: radial-gradient(circle,red,blue);
+     text-align: center;
+     padding: 1%;
+   }
+

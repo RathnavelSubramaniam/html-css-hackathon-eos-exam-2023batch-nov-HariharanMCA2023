@@ -1,0 +1,133 @@
+header {
+    background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+    
+
+    color: #fff; 
+    padding: 0%;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+     
+  }
+  
+  
+  header h1 {
+    font-size: 36px; 
+    margin: 0; 
+    top: 100px;
+  }
+  
+  header h2{
+    color:black;
+    font-size: 36px;
+    font-style: initial;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+  }
+
+
+body{
+    background-image: url('./images/stock-photo-blurred-empty-office.png');
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+
+.navbar{
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 70px;
+    left: 0;
+    background-image: linear-gradient(to left top, blue, red);
+;
+    z-index: 1000;
+    
+  
+
+}
+#nav{
+color: white;
+}
+
+.header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background: url(./logo/img.png);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+
+}
+
+.para{
+    font-style: italic;
+    color:darkorange;
+    font-weight:bolder;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+}
+
+main {
+    flex: 2; /* Main content takes up 2/3 of the available space */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.address{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkgreen;
+    font-weight: bolder;
+}
+
+.para1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: firebrick;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.para2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkmagenta;
+    text-indent: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+aside {
+    flex: 1; 
+    background-color: #ccc;
+    padding: 20px;
+}
+
+
+footer {
+    background: radial-gradient(circle,red,blue);
+     text-align: center;
+     padding: 1%;
+   }
